@@ -1,7 +1,10 @@
+import Layout from "../../components/Layout"
 export default function eventsPage() {
     return (
         <div>
-            <h1>Events Page</h1>
+            <Layout title='DJ | Events'>
+                <h1>Events Page</h1>
+            </Layout>
         </div>
     )
 }
