@@ -1,19 +1,21 @@
 import Head from 'next/head';
 import Header from './Header';
-import layoutStyles from '../styles/Layout.module.scss';
+import Footer from './Footer';
+import styles from '../styles/Layout.module.scss';
 
 export default function Layout({title, description, keyword, children}) {
     return (
         <div>
             <Head>
                 <title>{title}</title>
-                <meta description={description} keyword={keyword}></meta>
+                <meta name='description' content={description}></meta>
+                <meta name='keyword' content={keyword}></meta>
             </Head>
             <Header/>
-            <div className={layoutStyles.container}>
+            <div className={styles.container}>
                 {children}
-            </div>
-            
+            </div>   
+            <Footer/>   
         </div>
     )
 }

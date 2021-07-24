@@ -2,7 +2,7 @@ import Link from 'next/link';
 import headerStyles from '../styles/Header.module.scss';
 export default function Header() {
     return (
-        <Header className={headerStyles.header}>
+        <div className={headerStyles.header}>
             <div className={headerStyles.logo}>
                 <Link href='/'>
                     <a>DJ Events</a>
@@ -20,6 +20,6 @@ export default function Header() {
                     </li>
                 </ul>
             </nav>
-        </Header>
+        </div>
     )
 }
