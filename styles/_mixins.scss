@@ -2,4 +2,10 @@
     @media (max-width:768px) {
         @content
     }
+};
+
+@mixin bg-phone{
+    @media (max-width:600px) {
+        @content
+    }
 }

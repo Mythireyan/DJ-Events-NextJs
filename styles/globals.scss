@@ -14,3 +14,25 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.btn{
+  background-color: orangered;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 4px;
+
+  &:hover{
+    opacity: 0.8;
+  }
+}
+
+.btn-secondary{
+  background-color: rgba(0, 0, 0, 0.815);
+  color: #fff;
+  padding: 7px 15px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+
+

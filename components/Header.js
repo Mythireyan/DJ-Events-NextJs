@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import headerStyles from '../styles/Header.module.scss';
+import headerStyles from '@/styles/Header.module.scss';
 export default function Header() {
     return (
         <div className={headerStyles.header}>
